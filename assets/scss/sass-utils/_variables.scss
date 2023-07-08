@@ -1,10 +1,14 @@
 
 /* Fonts */
-:root {
-    --font-default: 'Cairo', sans-serif;
-    --font-primary: "Montserrat", sans-serif;
-    --font-secondary: "Lato", sans-serif;
+@font-face {
+  font-family: myFirstFont;
+  src: url(assets/fonts/Cairo-Regular.ttf);
+  
   }
+:root {
+    --font-default:myFirstFont;
+  }
+  $mainfontRegular:fedra-R;
   
   /* Global Colors */
   :root {
@@ -43,10 +47,12 @@
   :root {
 
 --logo-size:140px;
---fs-h3-stander: 26px;
---font-size-text-v1:14px;
---font-size-text-v2:17px;
---font-size-text-v3:24px;
+--font-size-text-v1:12px;
+--font-size-text-v2:14px;
+--font-size-text-v3:17px;
+--font-size-text-v4:24px;
 --fs-span-mob-v1:12px;
-
+--fs-h3-v1:1.2rem;
+--fs-h2-v1:1.3rem;
+--fs-label-v1:12px;
   }
